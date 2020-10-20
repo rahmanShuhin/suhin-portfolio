@@ -1,0 +1,55 @@
+.about {
+  padding: 0% 15%;
+}
+.about__me {
+  padding: 10% 0%;
+
+  max-width: 600px;
+}
+.about__me > h2 {
+  font-size: 35px;
+  margin: 25px 0px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.about__me > p {
+  font-size: 18px;
+  color: #622d26;
+}
+.background {
+  background: #f7f7f2;
+  padding: 5% 10%;
+}
+.background__grid__col {
+  padding: 2% 5%;
+  margin: 10px 0px;
+}
+.background__grid__col > h3:nth-child(2) {
+  margin: 15px 0px;
+}
+.background__grid__col > div {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+}
+.background__grid__col > div > p {
+  display: flex;
+}
+@media only screen and (max-width: 600px) {
+  .background__grid__col {
+    margin: 20px 0px;
+  }
+  .about {
+    padding: 0% 5%;
+  }
+  .about__me > h2 {
+    font-size: 27px;
+    margin: 35px 0px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .background__grid__col {
+    padding: 2% 0%;
+    margin: 10px 0px;
+  }
+}

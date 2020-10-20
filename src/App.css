@@ -1,0 +1,15 @@
+@import url("https://use.typekit.net/alk2jrn.css");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: muli, sans-serif;
+}
+p {
+  line-height: 1.6;
+}
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,137 @@
+.skill {
+  padding: 8% 15%;
+}
+.skill__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill__header__text {
+  max-width: 700px;
+
+  text-align: center;
+}
+.skill__header__text > h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+}
+.skill__header__text p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.skill_bottom {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.skill_bottom > .grid__techno > .grid__techno__col {
+  margin: 30px 0px;
+}
+.skill_bottom > .grid__techno > .grid__techno__col > img {
+  max-width: 60px;
+  display: block;
+  margin: 0 auto;
+  filter: grayscale(100%);
+  transition-duration: 0.5s;
+}
+.skill_bottom > .grid__techno > .grid__techno__col > img:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.skill__work__container__left {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../../Image/work.jpg);
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill__work__container__right {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Image/insights.jpg);
+  height: 30vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill__work > .skill__work__container .link {
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  position: relative;
+}
+.skill__work > .skill__work__container .link::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -10px;
+  left: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s;
+}
+.skill__work > .skill__work__container .link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 0px;
+  height: 3px;
+  background-color: white;
+  transition: all 0.5s;
+}
+.skill__work > .skill__work__container .link:hover::before,
+.skill__work > .skill__work__container .link:hover::after {
+  width: 100%;
+}
+
+.skill__work > .skill__work__container > .skill__work__container__left:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../Image/work.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.skill__work > .skill__work__container > .skill__work__container__right:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../Image/insights.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn__work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .skill_bottom > div {
+    flex: 1;
+  }
+  .skill__header__text {
+    margin: 40px 0px;
+  }
+  .skill__header__text > h2 {
+    font-size: 5.9vw;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+}
