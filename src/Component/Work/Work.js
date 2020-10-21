@@ -38,7 +38,7 @@ const Work = () => {
           <h2 style={{ color: "red" }}>Red Onion</h2>
           <div>
             <p>
-            A single page restaurant app where people are able to select food in their cart and checkout the cart with their information.
+                A single page restaurant app where people can select food in their cart and checkout the cart with their information.
             </p>
           </div>
           <div className="work__project__bottom">
@@ -64,8 +64,7 @@ const Work = () => {
           <h2 style={{ color: "teal" }}>Doctors Portal</h2>
           <div>
             <p>
-            A single-page web app with a dashboard where people can pick the date and time and fix an appointment. A doctor can review his appointments and prescribe medicine to a Patient
-            from his dashboard.
+            A single-page web app with a dashboard where people can pick the date and time and fix an appointment. A doctor can review his appointments and prescribe medicine to a Patient from his dashboard.
             </p>
           </div>
           <div className="work__project__bottom">

@@ -13,7 +13,7 @@ const Navigation = ({ color }) => {
   return (
     <div className="navigation">
       <div className="navigation__left" data-aos="zoom-in">
-        <Link to="/" onClick={hamburger}>
+        <Link to="/">
           <img src={Logo} alt="" />
         </Link>
       </div>

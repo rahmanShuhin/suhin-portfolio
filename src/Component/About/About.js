@@ -12,11 +12,7 @@ const About = () => {
           <title>About | Shuhin</title>
           <meta
             name="description"
-            content="I'm Mahmudur Rahman Shuhin, a creative front-end developer.I develop web applications and Website. My core skill is based on
-            JavaScript and I love to do most of the things using JavaScript. I
-            love to make the web more open to the world. I am currently pursuing
-            my bachelor's degree at Metropolitan University, Sylhet(Last Year).
-            I am available for any good job opportunities."
+            content="I'm Mahmudur Rahman Shuhin, a creative front-end developer. I develop web applications and Websites. My core skill is based on JavaScript and I love to do most of things using JavaScript. I love to make the web more open to the world. I am currently pursuing my bachelor's degree at Metropolitan University, Sylhet(Last Year). I am available for any good job opportunities."
             />
         <meta name="keywords" content="portfolio website front-end-developer developer Shuhin MR Shuhin"/>
       </Helmet>
@@ -26,11 +22,7 @@ const About = () => {
           <p>About Me</p>
           <h2 data-aos="zoom-in">I'm Mahmudur Rahman Shuhin, a creative front-end developer</h2>
           <p>
-            I develop web applications and Website. My core skill is based on
-            JavaScript and I love to do most of the things using JavaScript. I
-            love to make the web more open to the world. I am currently pursuing
-            my bachelor's degree at Metropolitan University, Sylhet(Last Year).
-            I am available for any good job opportunities.
+          I develop web applications and Websites. My core skill is based on JavaScript and I love to do most of things using JavaScript. I love to make the web more open to the world. I am currently pursuing my bachelor's degree at Metropolitan University, Sylhet(Last Year). I am available for any good job opportunities.
           </p>
         </div>
       </div>
@@ -40,7 +32,7 @@ const About = () => {
             <h3>01</h3>
             <h3>BACKGROUND</h3>
             <p>
-            I have attained a BSc in Computer Science and Engineering from the University of Metropolitan Sylhet. I completed the web development and full-stack web development masterclass: beginner to advance with programming hero of Jhankar Mahbub and Udemy. Web developer, I also have agency experience which has enabled me to foster the right mix of theory and practice in my projects.
+            I have attained a BSc in Computer Science and Engineering from the University of Metropolitan Sylhet. I completed the web development and full-stack web development masterclass: beginner to advance with programming hero of Jhankar Mahbub and Udemy.
             </p>
           </Grid>
           <Grid md={6} xs={12} className="background__grid__col">

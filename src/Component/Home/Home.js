@@ -15,7 +15,7 @@ const Home = () => {
           <div className="home__caption__text" data-aos="zoom-in">
             <h3>Hi , I'm</h3>
             <h2>Mahumudur Rahman Shuhin</h2>
-            <h2>a freelance front-end developer .</h2>
+            <h2>a front-end developer .</h2>
             <Link className="link" to="/about">
               Learn More <ArrowForwardIcon></ArrowForwardIcon>
             </Link>
@@ -34,7 +34,7 @@ const Home = () => {
               <h3>Creative & Engaging</h3>
               <h2>I build pixel-perfect web solutions for all devices</h2>
               <Button className="btn__work_1" onClick={()=>history.push("/work")}>View My Work</Button>
-              <Button className="btn__resume">View My Resume</Button>
+              <Button className="btn__resume" onClick={()=> window.location.href = 'https://drive.google.com/file/d/1Jt-GExxxz8DCcjPYEpQC8tJjiumJqv8G/view?usp=sharing'}>View My Resume</Button>
             </div>
           </Grid>
           <Grid
