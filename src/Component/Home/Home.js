@@ -20,11 +20,11 @@ const Home = () => {
               Learn More <ArrowForwardIcon></ArrowForwardIcon>
             </Link>
           </div>
-          <div class="mouse">
+        </div>
+        <div class="mouse">
             <div class="mouse-icon">
               <span class="mouse-wheel"></span>
             </div>
-          </div>
         </div>
       </div>
       <div className="home__pixel__perfect">
